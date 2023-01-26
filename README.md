@@ -45,13 +45,13 @@ Config layer and auth support Office 365 Dedicated (SPO on a custom domain) as w
 ### Install
 
 ```bash
-npm install node-sp-auth-config --save
+npm install @lucaselb/node-sp-auth-config --save
 ```
 
 or install globally to use as CLI:
 
 ```bash
-npm install node-sp-auth-config -g
+npm install @lucaselb/node-sp-auth-config -g
 ```
 
 ### Usage as CLI
