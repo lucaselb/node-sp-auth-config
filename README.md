@@ -1,4 +1,5 @@
 # node-sp-auth-config - Config options builder for node-sp-auth (SharePoint Authentication in Node.js)
+## Project forked from: https://github.com/s-KaiNet/node-sp-auth-config
 
 `node-sp-auth-config` provides wizard-like approach for building and managing config files for [node-sp-auth](https://github.com/s-KaiNet/node-sp-auth) (Node.js to SharePoint unattended http authentication). Includes CLI for generating config files from command prompt.
 
