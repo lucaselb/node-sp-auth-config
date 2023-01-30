@@ -1,5 +1,5 @@
 import { Question, prompt, PasswordQuestion } from 'inquirer';
-import { IAdfsUserCredentials } from 'node-sp-auth';
+import { IAdfsUserCredentials } from '@lucaselb/node-sp-auth';
 
 import { shouldSkipQuestionPromptMapper } from '../../utils/hooks';
 import { defaultPasswordMask } from '../../utils';

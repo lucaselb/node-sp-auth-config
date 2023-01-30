@@ -1,5 +1,5 @@
 import { Question, prompt } from 'inquirer';
-import { IOnPremiseAddinCredentials } from 'node-sp-auth';
+import { IOnPremiseAddinCredentials } from '@lucaselb/node-sp-auth';
 
 import { shouldSkipQuestionPromptMapper } from '../../utils/hooks';
 import { IWizardCallback } from '../../interfaces/wizard';

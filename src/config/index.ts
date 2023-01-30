@@ -1,4 +1,4 @@
-import * as spauth from 'node-sp-auth';
+import * as spauth from '@lucaselb/node-sp-auth';
 import { IStrategyDictItem } from '../interfaces';
 
 export const getTargetsTypes = (): string[] => {

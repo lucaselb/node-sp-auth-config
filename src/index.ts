@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 import * as path from 'path';
 import { Cpass } from 'cpass';
-import { getAuth, IAuthOptions, IAuthResponse } from 'node-sp-auth';
+import { getAuth, IAuthOptions, IAuthResponse } from '@lucaselb/node-sp-auth';
 
 // Utils
 import { convertSettingsToAuthContext, saveConfigOnDisk, getHiddenPropertyName } from './utils';
@@ -212,4 +212,4 @@ export class AuthConfig {
 }
 
 export { IAuthContext, IAuthConfigSettings } from './interfaces';
-export { IAuthOptions } from 'node-sp-auth';
+export { IAuthOptions } from '@lucaselb/node-sp-auth';

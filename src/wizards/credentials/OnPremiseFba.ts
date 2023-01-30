@@ -1,5 +1,5 @@
 import { Question, prompt, PasswordQuestion } from 'inquirer';
-import { IOnpremiseFbaCredentials } from 'node-sp-auth';
+import { IOnpremiseFbaCredentials } from '@lucaselb/node-sp-auth';
 
 import { shouldSkipQuestionPromptMapper } from '../../utils/hooks';
 import { defaultPasswordMask } from '../../utils';

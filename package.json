@@ -1,7 +1,7 @@
 {
-  "name": "node-sp-auth-config",
+  "name": "@lucaselb/node-sp-auth-config",
   "description": "Config options builder for node-sp-auth (SharePoint Authentication in Node.js)",
-  "version": "3.0.5",
+  "version": "3.1.2",
   "main": "./dist/index.js",
   "typings": "./dist/index",
   "scripts": {
@@ -22,21 +22,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koltyakov/node-sp-auth-config.git"
+    "url": "git+https://github.com/lucaselb/node-sp-auth-config.git"
   },
   "author": "Andrew Koltyakov <andrew.koltyakov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koltyakov/node-sp-auth-config/issues"
+    "url": "https://github.com/lucaselb/node-sp-auth-config/issues"
   },
-  "homepage": "https://github.com/koltyakov/node-sp-auth-config#readme",
+  "homepage": "https://github.com/lucaselb/node-sp-auth-config#readme",
   "dependencies": {
     "colors": "^1.4.0",
     "commander": "^9.4.0",
     "cpass": "^2.3.0",
     "inquirer": "^8.2.4",
     "mkdirp": "^1.0.4",
-    "node-sp-auth": "^3.0.7"
+    "@lucaselb/node-sp-auth": "^3.1.1"
   },
   "devDependencies": {
     "@pnp/pnpjs": "^2.0.6",
